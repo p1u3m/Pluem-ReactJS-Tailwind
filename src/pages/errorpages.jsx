@@ -1,5 +1,5 @@
 import React from 'react'
-import ErrorText from '../components/ErrorText'
+import ErrorText from '../components/errortext'
 
 function ErrorPages() {
   return (

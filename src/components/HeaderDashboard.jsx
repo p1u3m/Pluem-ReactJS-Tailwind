@@ -1,6 +1,6 @@
 import React from 'react'
 
-function HeaderDashboard() {
+function headerdashboard() {
   return (
     <div>
       <h1 className='text-center font-bold pt-32 pb-16 font-DMmono text-5xl hover:text-indigo-500
@@ -10,4 +10,4 @@ function HeaderDashboard() {
   )
 }
 
-export default HeaderDashboard
+export default headerdashboard

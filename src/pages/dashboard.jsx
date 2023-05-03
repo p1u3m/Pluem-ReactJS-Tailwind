@@ -1,8 +1,8 @@
 import React from 'react'
-import HeaderDashboard from '../components/HeaderDashboard'
-import BorderDash from '../components/BorderDash'
+import HeaderDashboard from '../components/headerdashboard'
+import BorderDash from '../components/borderdash'
 
-function Dashboard() {
+function dashboard() {
   return (
     <>
     <HeaderDashboard/>
@@ -11,4 +11,4 @@ function Dashboard() {
   )
 }
 
-export default Dashboard
+export default dashboard

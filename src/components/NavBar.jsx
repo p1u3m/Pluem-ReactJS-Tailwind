@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 let activeClassName = "nav-active"
 
-function NavBar() {
+function navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
@@ -27,10 +27,10 @@ function NavBar() {
                  to="/">Home</NavLink>
                  <NavLink className={({ isActive }) => isActive ? activeClassName : 
                  "hover:bg-white/50 text-white block px-3 py-2 rounded-md text-lg font-medium"}
-                 to="/DashBoard">Dashboard</NavLink>
+                 to="/dashboard">Dashboard</NavLink>
                  <NavLink className={({ isActive }) => isActive ? activeClassName : 
                  "hover:bg-white/50 text-white block px-3 py-2 rounded-md text-lg font-medium"} 
-                 to="/Project">Projects</NavLink>
+                 to="/project">Projects</NavLink>
                  <NavLink className={({ isActive }) => isActive ? activeClassName : 
                  "hover:bg-white/50 text-white block px-3 py-2 rounded-md text-lg font-medium"} 
                  to="/Calendar">Calendar</NavLink>
@@ -107,10 +107,10 @@ function NavBar() {
                  to="/">Home</NavLink>
                  <NavLink className={({ isActive }) => isActive ? activeClassName : 
                  "hover:bg-white/50 text-white block px-3 py-2 rounded-md text-lg font-medium"}
-                 to="/DashBoard">Dashboard</NavLink>
+                 to="/dashboard">Dashboard</NavLink>
                  <NavLink className={({ isActive }) => isActive ? activeClassName : 
                  "hover:bg-white/50 text-white block px-3 py-2 rounded-md text-lg font-medium"} 
-                 to="/Project">Projects</NavLink>
+                 to="/project">Projects</NavLink>
                  <NavLink className={({ isActive }) => isActive ? activeClassName : 
                  "hover:bg-white/50 text-white block px-3 py-2 rounded-md text-lg font-medium"} 
                  to="/Calendar">Calendar</NavLink>
@@ -127,4 +127,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default navbar;
