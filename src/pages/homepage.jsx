@@ -1,12 +1,12 @@
 import React from 'react'
 import HeaderHome from '../components/headerhome'
-import MyGallery2 from '../components/mygallery2'
+import MyGallery from '../components/mygallery'
 
 function HomePage() {
   return (
     <>
     <HeaderHome/>
-    <MyGallery2/>
+    <MyGallery/>
     </>
   )
 }
