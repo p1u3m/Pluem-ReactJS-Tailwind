@@ -1,5 +1,5 @@
 import React from 'react'
-import HeaderHome from '../components/HeaderHome'
+import HeaderHome from '../components/headerhome'
 import MyGallery2 from '../components/mygallery2'
 
 function HomePage() {
