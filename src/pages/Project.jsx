@@ -6,7 +6,6 @@ function Project() {
   return (
     <>
     <HeaderProjects/>
-    
     <BorderDash/>
     </>
   )
