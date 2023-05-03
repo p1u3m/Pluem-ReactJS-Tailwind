@@ -1,5 +1,5 @@
-export { default as HeaderHome } from './HeaderHome';
-export { default as MyGallery } from './MyGallery';
+export { default as HeaderHome } from '../components/HeaderHome';
+export { default as MyGallery } from '../components/MyGallery';
 
 import React from 'react'
 import { MyGallery } from '../components/MyGallery'
