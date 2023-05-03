@@ -2,7 +2,7 @@ import React from 'react'
 import HeaderDashboard from '../components/headerdashboard'
 import BorderDash from '../components/borderdash'
 
-function dashboard() {
+function Dashboard() {
   return (
     <>
     <HeaderDashboard/>
@@ -11,4 +11,4 @@ function dashboard() {
   )
 }
 
-export default dashboard
+export default Dashboard
