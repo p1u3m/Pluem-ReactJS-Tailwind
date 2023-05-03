@@ -1,6 +1,6 @@
 import React from 'react'
 
-function errortext() {
+function ErrorText() {
   return (
     <div className='max-w-full'>
       <div className='bg-gradient-to-tr to-rose-400/70 from-indigo-500/70'>
@@ -12,5 +12,5 @@ function errortext() {
   )
 }
 
-export default errortext
+export default ErrorText
 

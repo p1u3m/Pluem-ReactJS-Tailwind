@@ -1,6 +1,6 @@
 import React from 'react'
 
-function headerhome() {
+function HeaderHome() {
   return (
     <div className='text-cyan-50 bg-gradient-to-tr to-rose-400/70 from-indigo-500/70'>
       <h1 className='text-center font-bold pt-24 pb-10 font-DMmono text-5xl hover:text-indigo-500 transition duration-300 ease-in-out'>
@@ -18,4 +18,4 @@ function headerhome() {
   )
 }
 
-export default headerhome
+export default HeaderHome

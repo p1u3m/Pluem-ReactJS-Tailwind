@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 let activeClassName = "nav-active"
 
-function navbar() {
+function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
@@ -127,4 +127,4 @@ function navbar() {
   );
 }
 
-export default navbar;
+export default Navbar;

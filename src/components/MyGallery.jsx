@@ -1,6 +1,6 @@
 import React from 'react'
 
-function mygallery() {
+function MyGallery() {
   return (
     <div className='mx-auto max-w-5xl flex py-10 px-5'>
     <div className='grid grid-cols-3 gap-4'>
@@ -27,4 +27,4 @@ function mygallery() {
   )
 }
 
-export default mygallery
+export default MyGallery
