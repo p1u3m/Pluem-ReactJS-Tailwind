@@ -6,7 +6,7 @@ function Project() {
   return (
     <>
     <HeaderProjects/>
-    <div className=''></div>
+    
     <BorderDash/>
     </>
   )
