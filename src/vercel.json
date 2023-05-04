@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "name": "PluemVite",
+    "builds": [
+       { "src": "App.jsx", "use": "@vercel/node" }
+    ],
+    "routes": [
+       { "src": "/(.*)", "dest": "/app.js" }
+    ]
+ }
