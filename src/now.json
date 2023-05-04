@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "builds": [
+        { "src": "/src/App.jsx", "use": "@now/static"},
+        { "src": "/src/components/**", "use": "@now/components"}
+    ],
+    "routes": [
+        { "src": "/components", "dest": "/App.jsx" }
+    ]
+}
