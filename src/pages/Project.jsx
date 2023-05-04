@@ -1,6 +1,6 @@
 import React from 'react'
-import HeaderProjects from './components/HeaderProjects'
-import BorderDash from './components/BorderDash'
+import HeaderProjects from '../components/HeaderProjects'
+import BorderDash from '../components/BorderDash'
 
 function Project() {
   return (
